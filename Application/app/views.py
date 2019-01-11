@@ -29,7 +29,7 @@ def contact(request):
         'app/contact.html',
         {
             'title': 'Contact',
-            'message': 'Your contact page.',
+            'message': 'Go Broncos!',
             'year': datetime.now().year,
         }
     )
